@@ -1,0 +1,447 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+    position: relative;
+}
+.navbar-brand span{
+    color: aqua;
+    font-size: 40px;
+}
+.navbar-nav li:hover .dropdown-menu{
+  display: block;
+}
+
+.bigimg{
+    width: 40%;
+    transition: 2s;
+    animation-name: img;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes img {
+    0% {
+          transform: translateY(-10px);
+      }
+      50%{
+      transform: translateY(10px);
+    }
+      100%{
+        transform: translateY(0px);
+      }
+    
+  }
+.bigimg img{
+    width: 100%;
+}
+/* card */
+.cards .card:hover{
+    margin-top: -20px;
+}
+.cards .card-body h4:hover {
+    color: #0ea2bd;
+
+}
+/* .part2 .big */
+ h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+.part2 .big h1 span{
+    color: #0ea2bd;
+}
+/* about */
+.abbody .bo1 img{
+    width: 100%;
+}
+.abbody .bo1 {
+    width: 35%;
+}
+.abbody {
+    background-image: url(https://bootstrapmade.com/demo/templates/HeroBiz/assets/img/about-bg.png);
+    background-repeat:no-repeat ;
+}
+.bo2 h2{
+    
+    font-size: 38px;
+    font-weight: 300;
+}
+.bo2 ul li a{
+    font-size: 25px;
+    color: rgb(147, 145, 145);
+    text-decoration: none;
+    
+}
+.bo2 ul li a:active  {
+    color: #0ea2bd ;
+    text-decoration: underline 3px #0ea2bd;
+} 
+
+.brands img {
+    width: 100px;
+    filter: grayscale(1);
+  }
+  .brands img:hover{
+    filter: grayscale(0);
+  }
+  /* part-4 */
+  .part4{
+    background-color: #dcd9d9;
+    border-radius:50px ;
+   
+  }
+  .pr42{
+    width: 30%;
+  }
+  .pr42 img{
+    width: 100%;
+    border-radius: 30px;
+  }
+  .part4 .pr41 h2{
+    font-size: 50px;
+  }
+  .b1{
+    border-radius: 15px;
+    background-color: rgb(5, 5, 5);
+    transform: rotate(60deg);
+  }
+  .part5 .pr51{
+    position: relative;
+  }
+.part5 .pr51 img{
+    width: 100%;
+    height: 500px;   
+}
+
+.part5 .pr52 {
+    width: 50%;
+   background-image: url(https://bootstrapmade.com/demo/templates/HeroBiz/assets/img/onfocus-content-bg.jpg);
+  padding: 70px;
+}
+ .part5 .pr51::before{
+    content: '';
+    display: inline-block;
+    background-color: rgba(7, 7, 7, 0.623);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } 
+  .smlcard .card:hover{
+    background-color: rgb(86, 86, 255); 
+    color: blanchedalmond;
+
+  } 
+  .card i{
+    color: #6494e8;
+  }
+  .service-card .card,
+  .service-car .card{
+    bottom: 100px;
+    border-radius: 10px;
+  }
+  .service-card .syb,
+  .service-car .syb{
+    bottom: 70px;
+  }
+  .service-card .serimg img,
+  .service-car .serimg img{
+    border-radius: 10px;
+  }
+  .service-car .serimg img{
+    margin-top: 150px;
+  }
+  .service-car .syb:hover i{
+    color:#6494e8;
+  }
+  .service-car .cardx:hover{
+     background-color: #dcd9d9;
+    border-color:#6494e8 ;
+  }
+  .service-card .cardx:hover .serimg img{
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: 0.6s;
+
+  }
+  .service-card .cardx:hover .serimg img,
+  .service-car .cardx:hover .serimg img{
+    transform: scale(1.05);
+    /* width: 33.33%; */
+    transition: 0.6s;
+
+  }
+ 
+  .card-body h4:hover{
+    color:#6494e8 ;
+  }
+ .swip img{
+    height: 300px;
+ }
+.swip {
+    
+    margin-top: 150px;
+    
+}
+.swip ::before{
+    content: '';
+    display: inline-block;
+    background-color: rgba(7, 7, 7, 0.172);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .price .pricehead1{
+    width: 100%;
+    background-image: url("https://bootstrapmade.com/demo/templates/HeroBiz/assets/img/pricing-bg.jpg");
+  } 
+  .price .pricehead1::before{
+    content: '';
+    display: inline-block;
+    background-color: rgba(7, 7, 7, 0.469);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .price .pricehead ul{
+    list-style: disc;
+  }
+  .price .pricemiddel ul .na{
+    text-decoration:line-through;
+  }
+  .price .pricemiddel ul{
+   font-size: 20px;
+    line-height: 70px;
+  }
+  .price .pricemiddel i{
+    font-size: 8px;
+    padding-right: 30px;
+    line-height: 0;
+}
+.price .pricehead{
+    width: 100%;
+    background-image: url("https://bootstrapmade.com/demo/templates/HeroBiz/assets/img/pricing-bg.jpg");
+} 
+.price .pricehead::before{
+    content: '';
+    display: inline-block;
+    background-color: rgba(13, 148, 232, 0.839);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .question{
+    background-color: rgb(253, 252, 250);
+  }
+  .question .que2 img{
+    width: 100%;
+ }
+
+
+.imge {
+  position: relative; 
+  overflow: hidden;
+}
+
+
+.imge:hover img {
+  transform: scale(1.3);
+  transition: transform 0.5s; 
+  
+}
+
+
+.imge::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(11, 10, 10, 0.479); 
+  opacity: 0; 
+  transition:  0.5s; 
+  z-index: 999; 
+}
+
+.imge:hover::before {
+  opacity: 1; 
+}
+
+/* Text display */
+.tx {
+  display: none; 
+  
+}
+
+.imge:hover .tx {
+  display: block; 
+  position: absolute; 
+  bottom: 10px;
+  margin: auto;
+  color: white;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .team .card{
+    bottom: 60px;
+    margin-right: 10px;
+ }
+ .team .cir{
+    bottom: 10px;
+ }
+ .map iframe{
+    width: 100%;
+    height: 400px;
+ }
+ textarea{
+    height: 250px;
+ }
+ #footer{
+    background:#242b32;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-top{
+    background: #485664;
+    border-bottom: 1px solid #18302c;
+    padding: 60px 0 30px 0;
+}
+.social-info{
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.footer-info h3{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700
+}
+.footer-info p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #fff;
+}
+.social-info a{
+    font-size: 18px;
+    display: inline-block;
+    background: #1c3733;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px
+}
+#center{
+    margin-bottom: 30px;
+}
+#footer-con i{
+    padding-right: 10px;
+    color: #4ae3c6;
+    font-size: 10px;
+    line-height: 1;
+}
+#footer-con a{
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+}
+#footer form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px 0 0 4px;
+}
+#footer form .email{
+    border: 0;
+    padding: 4px;
+}
+#footer form .button{
+    position: absolute;
+    top: 0;
+    right: -4px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #1bac91;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+}
+#footer span{
+    color: #1bac91;
+}
+.footer-bottom{
+    padding-top: 30px;
+    
+}
+.container .footer-bottom{
+    background-color: #1a1f24;
+}
+.footer-bottom p{
+    padding-top: 10px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
