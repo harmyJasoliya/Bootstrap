@@ -46,7 +46,7 @@
     margin-top: -20px;
 }
 .cards .card-body h4:hover {
-    color: #0ea2bd;
+    color: #0eb1bd;
 
 }
 /* .part2 .big */
@@ -55,7 +55,7 @@
     font-weight: 300;
 }
 .part2 .big h1 span{
-    color: #0ea2bd;
+    color: #0eb1bd;
 }
 /* about */
 .abbody .bo1 img{
@@ -80,8 +80,8 @@
     
 }
 .bo2 ul li a:active  {
-    color: #0ea2bd ;
-    text-decoration: underline 3px #0ea2bd;
+    color: #0eb1bd;
+    text-decoration: underline 3px #0eb1bd;
 } 
 
 .brands img {
@@ -160,11 +160,11 @@
     margin-top: 150px;
   }
   .service-car .syb:hover i{
-    color:#6494e8;
+    color:#0eb1bd;
   }
   .service-car .cardx:hover{
      background-color: #dcd9d9;
-    border-color:#6494e8 ;
+    border-color:#0eb1bd ;
   }
   .service-card .cardx:hover .serimg img{
     transform: scale(1.05);
@@ -181,7 +181,7 @@
   }
  
   .card-body h4:hover{
-    color:#6494e8 ;
+    color:#0eb1bd ;
   }
  .swip img{
     height: 300px;
@@ -238,7 +238,7 @@
 .price .pricehead::before{
     content: '';
     display: inline-block;
-    background-color: rgba(13, 148, 232, 0.839);
+    background-color: #0eb1bd;
     position: absolute;
     top: 0;
     bottom: 0;
